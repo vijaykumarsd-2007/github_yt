@@ -23,16 +23,12 @@
 # [This block of code contaions error]
 
 
-# l=[23,22,654,65,43,45]
-# largest = l[0]
-# for i in l:
-#     if l[i] > largest:
-#         largest = l[i]
-# print (" gretest :",largest)
+l=[23,22,654,65,43,45]
+largest = l[0]
+for i in l:
+    if l[i] > largest:
+        largest = l[i]
+print (" gretest :",largest)
 
 
-# merginng two dioctionaries 
-d1 ={"name":"vijay","age":19,"marks":40}
-d2 = {"name":"shashank","age":16,"marks":50}
-sum=d1.update(d2)
-print(sum)
+
